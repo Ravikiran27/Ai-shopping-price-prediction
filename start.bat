@@ -1,0 +1,9 @@
+@echo off
+echo Starting AI-Powered E-Commerce Price Prediction System...
+echo.
+echo Installing dependencies...
+pip install -r requirements.txt
+echo.
+echo Starting Streamlit application...
+streamlit run app.py
+pause
