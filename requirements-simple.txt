@@ -1,3 +1,4 @@
+# Core dependencies - compatible with Python 3.8+
 streamlit
 pandas
 numpy
@@ -17,4 +18,7 @@ faker
 psutil
 scipy
 google-search-results
-schedule==1.2.0
+
+# Optional Streamlit components (may not be available in all Python versions)
+# streamlit-option-menu
+# streamlit-aggrid
